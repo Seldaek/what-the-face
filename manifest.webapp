@@ -1,0 +1,43 @@
+{
+    "name": "What The Face",
+    "version": "1",
+    "description": "Lala",
+    "launch_path": "/index.html",
+    "icons": {
+        "128": "/img/icon-128.png"
+    },
+    "developer": {
+        "name": "Jordi Boggiano",
+        "url": "http://seld.be"
+    },
+    "fullscreen": "false",
+    "default_locale": "en",
+    "messages": [
+        { "telephony-new-call": "/index.html#call" }
+    ],
+    "type": "certified",
+    "permissions": {
+        "telephony":{},
+        "voicemail":{},
+        "contacts":{ "access": "readwrite" },
+        "mobileconnection":{},
+        "attention":{},
+        "settings":{ "access": "readwrite" },
+        "desktop-notification":{},
+        "alarms": {},
+        "systemXHR": {},
+        "wifi-manage":{},
+        "time": {},
+        "audio-channel-telephony":{},
+        "audio-channel-ringer":{},
+        "browser":{},
+        "idle":{},
+        "storage": {},
+        "device-storage:sdcard": { "access": "readonly" },
+        "device-storage:pictures":{ "access": "readwrite" },
+        "device-storage:videos":{ "access": "readwrite" },
+        "camera":{},
+        "geolocation":{},
+        "audio-channel-notification":{}
+    }
+}
